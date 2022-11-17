@@ -119,32 +119,18 @@ footer {
 	background-color: #336699;
 }
 
+
 /* end accueil.html */
 
 /* qui-sommes-nous.html */
 
-.qsn_main {
-	margin: 40px -12px;
-}
-
-.qsn_title {
-	text-align: center;
-}
-
-.qsn_desc {
-	display: flex;
-	justify-content: space-evenly;
-}
-
-.qsn_desc_text {
-	width: 33%;
-	height: auto;
-}
-
-.sponsors_container {
-	margin: 50px;
-}
-
+.qsn_main { margin: 40px -12px; }
+.qsn_title { text-align: center;  }
+.qsn_desc { display: flex; justify-content: space-evenly; }
+.qsn_desc_text { width: 30%; height: auto; }
+.qsn_formation_text { width: 15%; height: auto; }
+.sponsors_container { margin: 50px; background-color: whitesmoke; box-shadow: 2px 2px 2px gray; }
+.qsn_videos { display: flex; justify-content: space-evenly; }
 #sponsors_1 { display: flex; justify-content: center; gap: 7px; }
 #sponsors_2 { display: flex; justify-content: center; gap: 7px; }
 #sponsors_3 { display: flex; justify-content: center; gap: 7px; }
@@ -167,7 +153,31 @@ footer {
 
 /* contact.html */
 
+.contact_main {
+	margin: 40px -12px;
+	background-color: #88c1d0;
+}
 
+.contact_rect_form {
+	width: 80%;
+	height: auto;
+	background-color: white;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.contact_title {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif; color: #ffffff;
+}
+
+.contact_title_form {
+	text-align: center;
+	font-family: 'Open Sans'; color: #275fa0;
+}
+
+.contact_form_content div {
+	margin: 0px 25%;
+}
 
 /* end contact.html */
 
