@@ -120,6 +120,7 @@ footer {
 }
 
 
+
 /* end accueil.html */
 
 /* qui-sommes-nous.html */
@@ -147,37 +148,125 @@ footer {
 
 /* aws-restart.html */
 
+.aws_main {
+	margin: 40px -12px;
+}
 
+.aws_banner_container {
+	height: 480px;
+	background-image: url(assets/aws.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.aws_banner_layout {
+	color: white;
+	font-size: 30px;
+	margin: 0px 16%;
+}
+
+.aws_desc {
+	margin: 0px 16%;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 30px;
+}
+
+/*
+.aws_signup {
+	text-align: center;
+	height: 140px;
+}
+*/
+
+.aws_submit_button {
+	background-color:#e17b32;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.aws_desc_formation {
+	height: 400px;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+}
+
+.aws_desc_pics {
+	text-align: center;
+	margin: -60px -12px;
+	background-color: #e17b32;
+}
+
+.aws_desc_pics_flex {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+	text-align: left;
+	margin: 60px;
+}
+
+.aws_pics_container {
+	width: 26%;
+	height: auto;
+	background-color: whitesmoke;
+}
+
+.aws_form_container {
+	color: white;
+	height: 550px;
+	margin: -22px -12px;
+	background-color: black;
+	text-align: center;
+}
+
+/* makes links in aws_desc white with no underline */
+.aws_desc a:link { text-decoration: none; color: #f65500; }
+.aws_desc a:visited { text-decoration: none; color: #f65500; }
+.aws_desc a:hover { text-decoration: none; color: #f65500; }
+.aws_desc a:active { text-decoration: none; color: #f65500; }
 
 /* end aws-restart.html */
 
 /* contact.html */
 
-.contact_main {
-	margin: 40px -12px;
-	background-color: #88c1d0;
-}
-
+.contact_main { margin: 40px -12px -16px; background-color: #88c1d0; }
 .contact_rect_form {
-	width: 80%;
-	height: auto;
+	width: 80%; height: auto;
 	background-color: white;
 	border-radius: 10px 10px 10px 10px;
+	box-shadow: 5px 5px 5px gray;
 }
-
 .contact_title {
-	text-align: center;
-	font-family: 'Open Sans', sans-serif; color: #ffffff;
+	text-align: center; font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
 }
+.contact_title_form { text-align: center; font-family: 'Open Sans'; color: #275fa0; }
+.contact_form_content div { margin: 0px 25%; }
+.contact_submit_button {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3; border-radius:8px; display:inline-block;
+	cursor:pointer; color:#ffffff; font-family:Arial; font-size:20px;
+	font-weight:bold; padding:13px 32px; text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.contact_submit_button:hover { background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%); background-color:#408c99; }
+.contact_submit_button:active { position:relative; top:1px; }
+.contact_infos { margin: 0px 20%; text-align: center; }
 
-.contact_title_form {
-	text-align: center;
-	font-family: 'Open Sans'; color: #275fa0;
-}
-
-.contact_form_content div {
-	margin: 0px 25%;
-}
+/* makes links in PDF_link white with no underline */
+.PDF_link a:link { text-decoration: none; color: #275fa0; }
+.PDF_link a:visited { text-decoration: none; color: #275fa0; }
+.PDF_link a:hover { text-decoration: none; color: #275fa0; }
+.PDF_link a:active { text-decoration: none; color: #275fa0; }
 
 /* end contact.html */
 
