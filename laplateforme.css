@@ -223,6 +223,13 @@ footer {
 .qsn_title { text-align: center;  }
 .qsn_desc { display: flex; justify-content: space-evenly; }
 .qsn_desc_text { width: 30%; height: auto; }
+
+/* makes links in aws_desc white with no underline */
+.qsn_desc_text a:link { text-decoration: none; color: #000000; }
+.qsn_desc_text a:visited { text-decoration: none; color: #000000; }
+.qsn_desc_text a:hover { text-decoration: none; color: #000000; }
+.qsn_desc_text a:active { text-decoration: none; color: #000000; }
+
 .qsn_formation_text { width: 15%; height: auto; }
 .sponsors_container { margin: 50px; background-color: whitesmoke; box-shadow: 2px 2px 2px gray; }
 .qsn_videos { display: flex; justify-content: space-evenly; }
@@ -236,7 +243,17 @@ footer {
 
 /* news.html */
 
+.news_main {
+	margin: 0px -12px;
+	background-color: #336699;
+}
 
+
+
+.news_video {
+	display: flex;
+	justify-content: space-evenly;
+}
 
 /* end news.html */
 
@@ -315,7 +332,7 @@ footer {
 
 .aws_form_container {
 	color: white;
-	height: 550px;
+	height: 600px;
 	margin: -22px -12px;
 	background-color: black;
 	text-align: center;
@@ -366,6 +383,134 @@ footer {
 
 /* plateforme-start.html */
 
+.lps_main {
+	margin: 40px -12px;
+}
 
+.lps_title_box {
+	background-color: #ffe75f;
+	text-align: center;
+}
+
+.lps_title_box_layout {
+	display: flex;
+	flex-direction: column;
+	gap: 28px;
+}
+
+.lps_title_w_box {
+	font-size: 32px;
+	border-color: black;
+	border-style: solid;
+	border-width: 5px;
+	padding: 5px 5px;
+	display: inline;
+	background-color: white;
+}
+
+.lps_title_desc {
+	display: flex;
+	justify-content: center;
+	gap: 26px;
+}
+
+.lps_title_desc_item {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.lps_desc {
+	display: flex;
+	justify-content: center;
+	gap: 60px;
+}
+
+.lps_desc_item {
+	width: 33%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.lps_form_button {
+	background-color:#000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+#lps_form_container {
+	color: white;
+	height: 720px;
+	margin: -22px -12px;
+	background-color: black;
+	text-align: center;
+}
+
+.lps_submit_button {
+	background-color:#e17b32;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:10px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.lps_formation {
+	display: flex;
+	justify-content: center;
+	gap: 40px;
+}
+
+.lps_future {
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+}
+
+.lps_future_item {
+	width: 22%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.lps_yellow_box {
+	width: 33%;
+	background-color: #ffe85f;
+}
+
+/* makes links in lps_yellow_box white with no underline */
+.lps_yellow_box a:link { text-decoration: none; color: #275fa0; }
+.lps_yellow_box a:visited { text-decoration: none; color: #275fa0; }
+.lps_yellow_box a:hover { text-decoration: none; color: #275fa0; }
+.lps_yellow_box a:active { text-decoration: none; color: #275fa0; }
+
+.lps_ask {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+}
+
+.lps_ask_item {
+	width: 33%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
 
 /* end plateforme-start.html */
