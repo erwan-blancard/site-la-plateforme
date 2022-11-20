@@ -248,7 +248,22 @@ footer {
 	background-color: #336699;
 }
 
+.news_container {
+	background-color: whitesmoke;
+	display: flex;
+	justify-content: space-evenly;
+	gap: 30px;
+}
 
+.news_article {
+	background-color: white;
+	width: 384px;
+	height: 512px;
+}
+
+.news_article:hover {
+	box-shadow: 1px 1px 8px #555;
+}
 
 .news_video {
 	display: flex;
